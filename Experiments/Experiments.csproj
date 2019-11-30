@@ -7,8 +7,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Autumn.IOC\Autumn.IOC.csproj" />
+      <ProjectReference Include="..\Autumn.MVC\Autumn.MVC.csproj" />
       <ProjectReference Include="..\Autumn.Utils\Autumn.Utils.csproj" />
-      <ProjectReference Include="..\Autumn.Web\Autumn.Web.csproj" />
     </ItemGroup>
 
     <ItemGroup>

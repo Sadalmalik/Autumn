@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experiments", "Experiments\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.Utils", "Autumn.Utils\Autumn.Utils.csproj", "{C446B46C-ACFB-48BD-A2F2-EE14C5680F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.Web", "Autumn.Web\Autumn.Web.csproj", "{C51D68C3-8967-4FF7-8726-B72049437486}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.MVC", "Autumn.MVC\Autumn.MVC.csproj", "{C51D68C3-8967-4FF7-8726-B72049437486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
