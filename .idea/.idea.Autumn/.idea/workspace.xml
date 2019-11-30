@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Autumn.Web/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -22,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Experiments/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Experiments/TestController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <marker date="1575130679916" expanded="false" signature="6:65" ph="..." />
                 <marker date="1575130679916" expanded="true" signature="88:1284" ph="{...}" />
@@ -60,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Experiments/TestPageData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="17">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
                 <marker date="1575130671370" expanded="true" signature="21:130" ph="{...}" />
@@ -92,6 +92,9 @@
       <find>_cancel</find>
       <find>Result</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/137505F1-43D3-4A4B-BD27-18744D7387D6/b9/8cc6d058/GroupCollection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -204,6 +207,13 @@
       </list>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Autumn/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-203" />
     <option name="y" value="114" />
@@ -215,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -226,6 +235,11 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Autumn.Web" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Experiments" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -233,19 +247,13 @@
               <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Experiments" type="24d0babc:SolutionExplorerModelNode" />
               <item name="web" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Experiments" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="web" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="view" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -253,6 +261,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,11 +344,12 @@
       <workItem from="1574922827373" duration="1717000" />
       <workItem from="1574965095589" duration="600000" />
       <workItem from="1575103247527" duration="20088000" />
+      <workItem from="1575130837214" duration="272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63507000" />
+    <option name="totallyTimeSpent" value="63779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +361,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32995737" />
       <window_info id="Image Layers" order="1" />
@@ -369,7 +380,7 @@
       <window_info anchor="bottom" id="Performance Profiler" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="11" weight="0.41257995" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.36353946" />
+      <window_info active="true" anchor="bottom" id="Build" order="12" visible="true" weight="0.36353946" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -382,7 +393,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="8" visible="true" weight="0.15565032" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="8" visible="true" weight="0.15724947" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,9 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experiments/VirtualMouse.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiments/VirtualMouse.cs" />
     <entry file="file://$PROJECT_DIR$/Autumn.Web/WebAttrybutes.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -977,7 +986,6 @@
           <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
           <folding>
             <marker date="1575129387714" expanded="true" signature="6:290" ph="..." />
-            <marker date="1575129387714" expanded="true" signature="312:6279" ph="{...}" />
             <marker date="1575129387714" expanded="true" signature="372:6277" ph="{...}" />
             <marker date="1575129387714" expanded="true" signature="853:935" ph="{...}" />
             <marker date="1575129387714" expanded="true" signature="992:1479" ph="{...}" />
@@ -1016,10 +1024,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.Web/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Experiments/TestController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <marker date="1575130679916" expanded="false" signature="6:65" ph="..." />
             <marker date="1575130679916" expanded="true" signature="88:1284" ph="{...}" />
@@ -1036,7 +1051,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Experiments/TestPageData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="17">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
             <marker date="1575130671370" expanded="true" signature="21:130" ph="{...}" />
@@ -1051,17 +1066,9 @@
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
             <marker date="1575130707137" expanded="true" signature="6:31" ph="..." />
-            <marker date="1575130707137" expanded="true" signature="54:496" ph="{...}" />
             <marker date="1575130707137" expanded="true" signature="74:494" ph="{...}" />
             <marker date="1575130707137" expanded="true" signature="127:488" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.Web/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>

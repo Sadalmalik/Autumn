@@ -159,7 +159,6 @@ namespace Autumn.MVC
 				{
 					if (meshod != comp.method) continue;
 
-
 					Match match = comp.route.Match(rout);
 					if (!match.Success) continue;
 
