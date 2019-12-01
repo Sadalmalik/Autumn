@@ -13,7 +13,7 @@ using Scriban;
 
 namespace Autumn.MVC
 {
-	public class WebControllerInvokeComponent : WebComponent
+	public class McvControllerInvokeComponent : McvComponent
 	{
 		private readonly JsonSerializerSettings _jsonSettings;
 		private          object                 _invocationTarget;
@@ -24,7 +24,7 @@ namespace Autumn.MVC
 		private          string                 _view;
 		private          bool                   _isAsync;
 
-		public WebControllerInvokeComponent()
+		public McvControllerInvokeComponent()
 		{
 			_template     = null;
 			_jsonSettings = new JsonSerializerSettings();
@@ -37,7 +37,6 @@ namespace Autumn.MVC
 
 			if (_view == null)
 			{
-				if (_type == ContentType.Text) throw new ArgumentException("For Text type must be defined view name!");
 				if (_type == ContentType.HTML) throw new ArgumentException("For HTML type must be defined view name!");
 			}
 			else
@@ -128,7 +127,7 @@ namespace Autumn.MVC
 				   .Select(par => ResolvaParameter(par, arguments, context, content))
 				   .ToArray();
 
-			object rawContent;
+			object rawContent = null;
 			if (_isAsync)
 			{
 				//	_invocationMethod.ReturnType.GenericTypeArguments[0]
@@ -141,6 +140,10 @@ namespace Autumn.MVC
 				rawContent = _invocationMethod.Invoke(_invocationTarget, invocationParameters);
 			}
 
+			if (rawContent == null)
+			{
+				Console.Write("Aaa");
+			}
 
 			var buffer = BuildBody(rawContent);
 
@@ -171,30 +174,25 @@ namespace Autumn.MVC
 
 		private byte[] BuildBody(object rawContent)
 		{
-			if (rawContent == null)
-				return null;
-
 			var type = rawContent.GetType();
 			switch (_type)
 			{
 				case ContentType.Bin:
 				{
-					if (type != typeof(byte[]))
-						throw new ArgumentException($"Content type mismatch! Expected byte[], but get {type.Name}");
+					CheckType(type, typeof(byte[]));
 					return (byte[]) rawContent;
 				}
 
 				case ContentType.Text:
 				{
-					if (type != typeof(string))
-						throw new ArgumentException($"Content type mismatch! Expected byte[], but get {type.Name}");
+					CheckType(type, typeof(string));
 					string body = rawContent as string;
 					return Encoding.UTF8.GetBytes(body);
 				}
 
 				case ContentType.HTML:
 				{
-					string body = _template.Render(rawContent);
+					string body = _template.Render(rawContent, member => member.Name);
 					return Encoding.UTF8.GetBytes(body);
 				}
 
@@ -206,6 +204,12 @@ namespace Autumn.MVC
 			}
 
 			return null;
+		}
+
+		private void CheckType(Type type, Type required)
+		{
+			if (type != required)
+				throw new ArgumentException($"Content type mismatch: Expected {required.Name}, but get {type.Name}!");
 		}
 	}
 }

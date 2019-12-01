@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Autumn.MVC
 {
-	public class WebComponent
+	public class McvComponent
 	{
 		public Method       method;
 		public Regex        route;
 		public int          priority;
-		public WebContainer container;
+		public MvcContainer container;
 
 		public string[] routNames;
 
-		public virtual WebComponent Setup(Method Method, string Rout, int Priority, WebContainer Container)
+		public virtual McvComponent Setup(Method Method, string Rout, int Priority, MvcContainer Container)
 		{
 			method    = Method;
 			route     = new Regex(Rout);

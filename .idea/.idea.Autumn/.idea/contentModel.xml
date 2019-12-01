@@ -23,6 +23,7 @@
         <e p="Model" t="Include">
           <e p="DefaultPageModel.cs" t="Include" />
         </e>
+        <e p="MvcContainer.cs" t="Include" />
         <e p="notes.txt" t="Include" />
         <e p="NotFoundException.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -34,13 +35,12 @@
         </e>
         <e p="WebAttrybutes.cs" t="Include" />
         <e p="WebComponents" t="Include">
-          <e p="WebComponent.cs" t="Include" />
-          <e p="WebControllerInvokeComponent.cs" t="Include" />
-          <e p="WebHandle404Component.cs" t="Include" />
-          <e p="WebHandle500Component.cs" t="Include" />
-          <e p="WebRawFilesComponent.cs" t="Include" />
+          <e p="McvComponent.cs" t="Include" />
+          <e p="McvControllerInvokeComponent.cs" t="Include" />
+          <e p="McvHandle404Component.cs" t="Include" />
+          <e p="McvHandle500Component.cs" t="Include" />
+          <e p="McvRawFilesComponent.cs" t="Include" />
         </e>
-        <e p="WebContainer.cs" t="Include" />
         <e p="WebDefines.cs" t="Include" />
         <e p="WebUtils.cs" t="Include" />
       </e>
@@ -91,6 +91,40 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="TestBot" t="IncludeRecursive">
+        <e p="AppManager.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="config.json" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="AppFaceController.cs" t="Include" />
+          <e p="AppWebhookController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="TestBot.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TestBot.csproj" t="IncludeRecursive" />
+        <e p="Trading" t="Include">
+          <e p="BitMEXApi.cs" t="Include" />
+          <e p="HashManager.cs" t="Include" />
+        </e>
+        <e p="Web" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap.min.css" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="favicon.ico" t="Include" />
+          </e>
+          <e p="js" t="Include" />
+          <e p="View" t="Include">
+            <e p="index.html" t="Include" />
+          </e>
+        </e>
+      </e>
     </e>
   </component>
 </project>

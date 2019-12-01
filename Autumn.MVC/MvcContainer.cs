@@ -10,7 +10,7 @@ using Autumn.Utils;
 
 namespace Autumn.MVC
 {
-	public class WebContainer
+	public class MvcContainer
 	{
 		public static readonly SmartFileHierarchy DefaultWebHierarchy = FileUtils.BuildWebHierarchy();
 
@@ -20,21 +20,22 @@ namespace Autumn.MVC
 		private bool                    _isInner;
 		private CancellationTokenSource _cancel;
 		private List<object>            _sharedControllers;
-		private List<WebComponent>      _components;
+		private List<McvComponent>      _components;
 
-		public WebComponent Handler404Page;
-		public WebComponent Handler500Page;
+		public McvComponent Handler404Page;
+		public McvComponent Handler500Page;
 
 		public SmartFileHierarchy fileHierarchy { get; private set; }
 
-		public WebContainer(Container          parentContainer    = null, bool createInnerContainer = true,
-		                    SmartFileHierarchy smartFileHierarchy = null)
+		public MvcContainer(Container          parentContainer      = null,
+		                    bool               createInnerContainer = true,
+		                    SmartFileHierarchy smartFileHierarchy   = null)
 		{
 			_work              = false;
 			_listener          = new HttpListener();
 			_sharedControllers = new List<object>();
-			_components        = new List<WebComponent>();
-			_isInner           = !createInnerContainer;
+			_components        = new List<McvComponent>();
+			_isInner           = createInnerContainer;
 
 			if (createInnerContainer)
 			{
@@ -79,7 +80,7 @@ namespace Autumn.MVC
 		public void AddDefaultFilesComponent()
 		{
 			_components.Add(
-				new WebRawFilesComponent()
+				new McvRawFilesComponent()
 				   .Setup(Method.GET, "", int.MaxValue, this));
 		}
 
@@ -96,7 +97,7 @@ namespace Autumn.MVC
 					var controller = Attribute.GetCustomAttribute(method, typeof(WebController)) as WebController;
 					if (controller == null) continue;
 
-					var component = new WebControllerInvokeComponent();
+					var component = new McvControllerInvokeComponent();
 					component.Setup(controller.method, controller.rout, controller.priority, this);
 					component.SetConfiguration(controller);
 					component.SetInvokationTarget(method, shared);
@@ -108,11 +109,11 @@ namespace Autumn.MVC
 				AddDefaultFilesComponent();
 
 			if (Handler404Page == null)
-				Handler404Page = new WebHandle404Component();
+				Handler404Page = new McvHandle404Component();
 
 			if (Handler500Page == null)
-				Handler500Page = new WebHandle500Component();
-			
+				Handler500Page = new McvHandle500Component();
+
 			Handler404Page.Setup(Method.ANY, ".*", 0, this);
 			Handler500Page.Setup(Method.ANY, ".*", 0, this);
 		}
@@ -152,7 +153,7 @@ namespace Autumn.MVC
 			Method meshod = WebUtils.ParseMethod(context.Request.HttpMethod);
 
 			string rout = context.Request.RawUrl.Split('?', 2)[0];
-			
+
 			try
 			{
 				foreach (var comp in _components)

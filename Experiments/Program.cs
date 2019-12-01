@@ -7,7 +7,7 @@ namespace Experiments
     {
         public static void Main(string[] args)
         {
-            var container = new WebContainer();
+            var container = new MvcContainer();
 
             container.Add<TestController>();
             container.AddDefaultFilesComponent();

@@ -8,17 +8,17 @@ using Scriban;
 
 namespace Autumn.MVC
 {
-	public class WebHandle404Component : WebComponent
+	public class McvHandle500Component : McvComponent
 	{
 		private Template _template;
-		public  string   templateFile { get; private set; }
+		public string templateFile { get; private set; }
 
-		public WebHandle404Component(string templateFile = null)
+		public McvHandle500Component(string templateFile=null)
 		{
 			this.templateFile = templateFile;
 		}
-
-		public override WebComponent Setup(Method Method, string Rout, int Priority, WebContainer Container)
+		
+		public override McvComponent Setup(Method Method, string Rout, int Priority, MvcContainer Container)
 		{
 			base.Setup(Method, Rout, Priority, Container);
 
@@ -32,25 +32,27 @@ namespace Autumn.MVC
 				var rawTemplate = File.ReadAllText(filepath);
 				_template = Template.Parse(rawTemplate);
 			}
-
+			
 			return this;
 		}
 
-		public override Task Handle(HttpListenerContext context, string rout, Match routMatch,
-		                            Exception           exception = null)
+		public override Task Handle(HttpListenerContext context, string rout, Match routMatch, Exception exception = null)
 		{
 			var model = new DefaultPageModel
 			{
-				code        = 404,
-				header      = "Page not found!",
-				description = "Could not find the specified resource!",
-				stacktrace  = null
+				code = 500,
+				header = "Internal server error!",
+				description = "An error occurred while the server was running!",
+				stacktrace = exception?
+				            .ToString()
+				            .Replace("<","&lt;")
+				            .Replace(">","&gt;")
 			};
-			string body   = _template.Render(model);
+			string body = _template.Render(model);
 			byte[] result = Encoding.UTF8.GetBytes(body);
-
-			SendContent(context, 404, ContentType.HTML, result);
-
+			
+			SendContent(context, 500, ContentType.HTML, result);
+			
 			return Task.FromResult<object>(null);
 		}
 	}

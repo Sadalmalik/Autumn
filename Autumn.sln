@@ -8,7 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experiments", "Experiments\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.Utils", "Autumn.Utils\Autumn.Utils.csproj", "{C446B46C-ACFB-48BD-A2F2-EE14C5680F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.MVC", "Autumn.MVC\Autumn.MVC.csproj", "{C51D68C3-8967-4FF7-8726-B72049437486}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBot", "TestBot\TestBot.csproj", "{D04601C8-0BA2-45D1-8F5D-BA224643B90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.MVC", "Autumn.MVC\Autumn.MVC.csproj", "{8628FEC8-DF87-413D-A3CD-3058485FC98C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,9 +34,13 @@ Global
 		{C446B46C-ACFB-48BD-A2F2-EE14C5680F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C446B46C-ACFB-48BD-A2F2-EE14C5680F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C446B46C-ACFB-48BD-A2F2-EE14C5680F09}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C51D68C3-8967-4FF7-8726-B72049437486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C51D68C3-8967-4FF7-8726-B72049437486}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C51D68C3-8967-4FF7-8726-B72049437486}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C51D68C3-8967-4FF7-8726-B72049437486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04601C8-0BA2-45D1-8F5D-BA224643B90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04601C8-0BA2-45D1-8F5D-BA224643B90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04601C8-0BA2-45D1-8F5D-BA224643B90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04601C8-0BA2-45D1-8F5D-BA224643B90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8628FEC8-DF87-413D-A3CD-3058485FC98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8628FEC8-DF87-413D-A3CD-3058485FC98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8628FEC8-DF87-413D-A3CD-3058485FC98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8628FEC8-DF87-413D-A3CD-3058485FC98C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

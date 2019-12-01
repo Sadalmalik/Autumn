@@ -75,15 +75,18 @@ namespace Autumn.Utils
 			if (_pathRoots.Count == 0)
 				_pathRoots.Add(FileUtils.CurrentPath);
 
-			string path;
 			var    ext        = Path.GetExtension(filename);
-			var    extensions = _pathsExtensionSpecified[ext];
+			var    extEnabled = _pathsExtensionSpecified.ContainsKey(ext);
+			var    extensions = extEnabled ? _pathsExtensionSpecified[ext] : null;
+
+			byExtension &= extEnabled;
 
 			foreach (string _root in _pathRoots)
 			{
 				string root = Path.GetFullPath(_root);
 				for (int height = searchHeight; height > 0; height--)
 				{
+					string path;
 					foreach (var general in _pathsGeneral)
 					{
 						if (byExtension)
