@@ -1,6 +1,5 @@
 {
   "Prefixes":[
-    "http://109.234.38.101:8080/",
     "http://localhost:8096/"
   ],
   "BitmexKey": "TvbPcwV0KaWUESULvJhwpCFM",
