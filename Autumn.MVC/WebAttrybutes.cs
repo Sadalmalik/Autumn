@@ -44,7 +44,7 @@ namespace Autumn.MVC
 	{
 		public ContentType type;
 
-		public WebContent(ContentType sourceType)
+		public WebContent(ContentType sourceType=ContentType.Text)
 		{
 			type = sourceType;
 		}

@@ -60,6 +60,7 @@
       <e p="Autumn.Utils" t="IncludeRecursive">
         <e p="Autumn.Utils.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Extensions.cs" t="Include" />
         <e p="FileUtils.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -119,7 +120,6 @@
           <e p="img" t="Include">
             <e p="favicon.ico" t="Include" />
           </e>
-          <e p="js" t="Include" />
           <e p="View" t="Include">
             <e p="index.html" t="Include" />
           </e>

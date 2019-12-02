@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5241d86d-271c-48ae-80cf-5bd960a6b501" name="Default Changelist" comment="" />
+    <list default="true" id="5241d86d-271c-48ae-80cf-5bd960a6b501" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Autumn.Utils/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Autumn/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Autumn/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Autumn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Autumn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autumn.MVC/WebAttrybutes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Autumn.MVC/WebAttrybutes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle404Component.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle404Component.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle500Component.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle500Component.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBot/AppManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestBot/AppManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBot/Controllers/AppFaceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestBot/Controllers/AppFaceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBot/web/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestBot/web/view/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +38,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestBot/AppManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <marker date="1575319351150" expanded="false" signature="6:125" ph="..." />
+                <marker date="1575319351150" expanded="true" signature="144:1169" ph="{...}" />
+                <marker date="1575319351150" expanded="true" signature="170:261" ph="{...}" />
+                <marker date="1575319351150" expanded="true" signature="287:338" ph="{...}" />
+                <marker date="1575319351150" expanded="true" signature="380:1167" ph="{...}" />
+                <marker date="1575319351150" expanded="true" signature="602:985" ph="{...}" />
+                <marker date="1575319351150" expanded="true" signature="1019:1027" ph="{...}" />
+                <marker date="1575319351150" expanded="true" signature="1069:1164" ph="{...}" />
+                <marker date="1575319351150" expanded="true" signature="1108:1158" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestBot/web/view/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="22" column="156" selection-start-line="22" selection-start-column="156" selection-end-line="22" selection-end-column="156" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+              <folding>
+                <marker date="1575320845246" expanded="false" signature="6:120" ph="..." />
+                <marker date="1575320845246" expanded="true" signature="139:1291" ph="{...}" />
+                <marker date="1575320845246" expanded="true" signature="191:1289" ph="{...}" />
+                <marker date="1575320845246" expanded="true" signature="359:465" ph="{...}" />
+                <marker date="1575320845246" expanded="true" signature="606:996" ph="{...}" />
+                <marker date="1575320845246" expanded="true" signature="1149:1286" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D10D71C-82A2-4E0A-8D97-A79A0A41B219/ed/8254e4a9/HttpListenerRequest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="483" column="23" lean-forward="true" selection-start-line="483" selection-start-column="23" selection-end-line="483" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C3386411-E9E2-4A39-B532-1C13859B5BB2/2a/1500408a/NameValueCollection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle404Component.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="64" />
+              <folding>
+                <marker date="1575320198360" expanded="false" signature="6:170" ph="..." />
+                <marker date="1575320198360" expanded="true" signature="192:1486" ph="{...}" />
+                <marker date="1575320198360" expanded="true" signature="245:1484" ph="{...}" />
+                <marker date="1575320198360" expanded="true" signature="392:437" ph="{...}" />
+                <marker date="1575320198360" expanded="true" signature="541:903" ph="{...}" />
+                <marker date="1575320198360" expanded="true" signature="625:699" ph="{...}" />
+                <marker date="1575320198360" expanded="true" signature="707:882" ph="{...}" />
+                <marker date="1575320198360" expanded="true" signature="1061:1481" ph="{...}" />
+                <marker date="1575320198360" expanded="true" signature="1105:1284" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Autumn.Utils/Extensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <marker date="1575320176185" expanded="true" signature="22:202" ph="{...}" />
+                <marker date="1575320176185" expanded="true" signature="56:200" ph="{...}" />
+                <marker date="1575320176185" expanded="true" signature="111:197" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvControllerInvokeComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="-23">
+              <caret line="68" column="50" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="50" />
               <folding>
                 <marker date="1575227945828" expanded="false" signature="6:290" ph="..." />
                 <marker date="1575227945828" expanded="true" signature="312:6223" ph="{...}" />
@@ -60,118 +169,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestBot/AppManager.cs">
+        <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle500Component.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="192">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
-                <marker date="1575227741150" expanded="false" signature="6:91" ph="..." />
-                <marker date="1575227741150" expanded="true" signature="110:840" ph="{...}" />
-                <marker date="1575227741150" expanded="true" signature="136:227" ph="{...}" />
-                <marker date="1575227741150" expanded="true" signature="269:838" ph="{...}" />
-                <marker date="1575227741150" expanded="true" signature="452:793" ph="{...}" />
-                <marker date="1575227741150" expanded="true" signature="827:835" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestBot/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvComponent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="41" />
-              <folding>
-                <marker date="1575225354968" expanded="false" signature="6:116" ph="..." />
-                <marker date="1575225354968" expanded="true" signature="138:1378" ph="{...}" />
-                <marker date="1575225354968" expanded="true" signature="167:1376" ph="{...}" />
-                <marker date="1575225354968" expanded="true" signature="427:595" ph="{...}" />
-                <marker date="1575225354968" expanded="true" signature="712:760" ph="{...}" />
-                <marker date="1575225354968" expanded="true" signature="870:1373" ph="{...}" />
-                <marker date="1575225354968" expanded="true" signature="1118:1197" ph="{...}" />
-                <marker date="1575225354968" expanded="true" signature="1205:1369" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Autumn.MVC/MvcContainer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <marker date="1575230578805" expanded="true" signature="6:220" ph="..." />
-                <marker date="1575230578805" expanded="true" signature="242:4675" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="271:4673" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="1050:1640" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="1299:1363" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="1371:1594" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="1711:1781" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="1834:1914" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="1960:2057" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="2107:2215" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="2257:2368" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="2403:3402" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="2453:3065" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="2636:3060" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="3431:3842" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="3864:3981" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="4049:4670" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="4189:4430" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="4232:4425" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="4477:4560" ph="{...}" />
-                <marker date="1575230578805" expanded="true" signature="4591:4666" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestBot/Trading/BitMEXApi.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
-              <folding>
-                <marker date="1575188453897" expanded="true" signature="33:188" ph="..." />
-                <marker date="1575188453897" expanded="true" signature="206:7525" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="239:555" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="583:7523" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="850:990" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="1063:1430" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="1498:1807" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="1866:2069" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="2104:2231" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="2372:4650" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="2792:3340" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="3357:4095" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="3407:3793" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="3692:3775" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="4019:4081" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="4132:4640" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="4244:4626" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="4410:4608" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="4508:4586" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="4660:5047" ph="/* public List&lt;OrderBookItem&gt; GetOrderBook(string symbol, int depth) ... */" />
-                <marker date="1575188453897" expanded="true" signature="5087:5575" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="5208:5502" ph="/* param[&quot;filter&quot;] = &quot;{\&quot;open\&quot;:true}&quot;; ... */" />
-                <marker date="1575188453897" expanded="true" signature="5610:6091" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="5731:6025" ph="/* param[&quot;filter&quot;] = &quot;{\&quot;open\&quot;:true}&quot;; ... */" />
-                <marker date="1575188453897" expanded="true" signature="6127:6415" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="6453:6717" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="6789:6947" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="6867:6937" ph="{...}" />
-                <marker date="1575188453897" expanded="true" signature="6957:7517" ph="RateLimiter" />
-                <marker date="1575188453897" expanded="true" signature="7095:7485" ph="{...}" />
+                <marker date="1575320216501" expanded="false" signature="6:170" ph="..." />
+                <marker date="1575320216501" expanded="true" signature="192:1453" ph="{...}" />
+                <marker date="1575320216501" expanded="true" signature="245:1451" ph="{...}" />
+                <marker date="1575320216501" expanded="true" signature="387:432" ph="{...}" />
+                <marker date="1575320216501" expanded="true" signature="538:903" ph="{...}" />
+                <marker date="1575320216501" expanded="true" signature="622:696" ph="{...}" />
+                <marker date="1575320216501" expanded="true" signature="704:879" ph="{...}" />
+                <marker date="1575320216501" expanded="true" signature="1021:1448" ph="{...}" />
+                <marker date="1575320216501" expanded="true" signature="1065:1247" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -180,41 +191,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestBot/Controllers/AppFaceController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="459">
+              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
-                <marker date="1575228724737" expanded="false" signature="6:49" ph="..." />
-                <marker date="1575228724737" expanded="true" signature="68:609" ph="{...}" />
-                <marker date="1575228724737" expanded="true" signature="97:155" ph="{...}" />
-                <marker date="1575228724737" expanded="true" signature="204:607" ph="{...}" />
-                <marker date="1575228724737" expanded="true" signature="404:604" ph="{...}" />
-                <marker date="1575228724737" expanded="true" signature="508:599" ph="{...}" />
+                <marker date="1575319058004" expanded="false" signature="6:49" ph="..." />
+                <marker date="1575319058004" expanded="true" signature="68:686" ph="{...}" />
+                <marker date="1575319058004" expanded="true" signature="97:188" ph="{...}" />
+                <marker date="1575319058004" expanded="true" signature="236:684" ph="{...}" />
+                <marker date="1575319058004" expanded="true" signature="434:681" ph="{...}" />
+                <marker date="1575319058004" expanded="true" signature="535:676" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <marker date="1575228827530" expanded="false" signature="6:63" ph="..." />
-                <marker date="1575228827530" expanded="true" signature="82:636" ph="{...}" />
-                <marker date="1575228827530" expanded="true" signature="134:634" ph="{...}" />
-                <marker date="1575228827530" expanded="true" signature="302:408" ph="{...}" />
-                <marker date="1575228827530" expanded="true" signature="496:631" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestBot/web/view/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="103" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -245,6 +231,9 @@
       <find>Json</find>
       <find>_template</find>
       <find>For Text type must be defined view name</find>
+      <find>&amp;l</find>
+      <find>&quot;&amp;lt;&quot;</find>
+      <find>&quot;&amp;l</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,7 +246,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D10D71C-82A2-4E0A-8D97-A79A0A41B219/ed/8254e4a9/HttpListenerRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF28F193-EAB6-4E49-B44B-3FB27EAB4F75/54/dbb30440/BindingFlags.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2088BF4-707B-4535-A1D2-683A76EDB1A8/df/b933efc2/IFormatProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C3386411-E9E2-4A39-B532-1C13859B5BB2/2a/1500408a/NameValueCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C3386411-E9E2-4A39-B532-1C13859B5BB2/2a/1500408a/NameValueCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestBot/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestBot/Trading/HashManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Autumn.MVC/MvcContainer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -301,6 +290,7 @@
     <setting file="file://$PROJECT_DIR$/Autumn.Test.IOC/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2088BF4-707B-4535-A1D2-683A76EDB1A8/aa/bc36da37/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20735148-1523-4917-A5E8-F91B0B239405/ab/828897d6/JsonSerializerSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Autumn.Utils/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2088BF4-707B-4535-A1D2-683A76EDB1A8/81/790d228f/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20735148-1523-4917-A5E8-F91B0B239405/23/b4a3888e/JsonConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/77F13DBC-BC9B-44D5-85CC-7725CE2B7FA4/86/fbdbdf44/Template.cs" root0="SKIP_HIGHLIGHTING" />
@@ -326,12 +316,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Experiments/WebContainer.cs" />
-        <option value="$PROJECT_DIR$/Autumn.Web/Class1.cs" />
-        <option value="$PROJECT_DIR$/Autumn.Web/Legacy.cs" />
-        <option value="$PROJECT_DIR$/Autumn.IOC/Shared.cs" />
-        <option value="$PROJECT_DIR$/Autumn.IOC/SharedObject.cs" />
-        <option value="$PROJECT_DIR$/Autumn.IOC/Container.cs" />
         <option value="$PROJECT_DIR$/Autumn.Web/WebComponent.cs" />
         <option value="$PROJECT_DIR$/Autumn.Web/WebControllerAttrybute.cs" />
         <option value="$PROJECT_DIR$/Experiments/Web/View/Template01.html" />
@@ -347,7 +331,6 @@
         <option value="$PROJECT_DIR$/Autumn.Web/WebComponents/WebHandle500Component.cs" />
         <option value="$PROJECT_DIR$/Autumn.Web/WebComponents/WebControllerInvokeComponent.cs" />
         <option value="$PROJECT_DIR$/Autumn.Web/WebDefines.cs" />
-        <option value="$PROJECT_DIR$/Experiments/Program.cs" />
         <option value="$PROJECT_DIR$/Experiments/TestPageData.cs" />
         <option value="$PROJECT_DIR$/Experiments/TestController.cs" />
         <option value="$PROJECT_DIR$/Autumn.Web/notes.txt" />
@@ -367,22 +350,29 @@
         <option value="$PROJECT_DIR$/TestBot/AppFace.cs" />
         <option value="$PROJECT_DIR$/TestBot/AppFaceController.cs" />
         <option value="$PROJECT_DIR$/TestBot/AppWebhookController.cs" />
-        <option value="$PROJECT_DIR$/TestBot/AppManager.cs" />
         <option value="$PROJECT_DIR$/TradeTest/Program.cs" />
         <option value="$PROJECT_DIR$/TestBot/Program.cs" />
         <option value="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvControllerInvokeComponent.cs" />
-        <option value="$PROJECT_DIR$/TestBot/web/view/index.html" />
-        <option value="$PROJECT_DIR$/TestBot/Controllers/AppFaceController.cs" />
-        <option value="$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs" />
-        <option value="$PROJECT_DIR$/TestBot/config.json" />
         <option value="$PROJECT_DIR$/Autumn.MVC/Program.cs" />
         <option value="$PROJECT_DIR$/Autumn.MVC/MvcContainer.cs" />
+        <option value="$PROJECT_DIR$/Experiments/Program.cs" />
+        <option value="$PROJECT_DIR$/TestBot/config.json" />
+        <option value="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvRawFilesComponent.cs" />
+        <option value="$PROJECT_DIR$/Autumn.MVC/WebDefines.cs" />
+        <option value="$PROJECT_DIR$/Autumn.MVC/WebAttrybutes.cs" />
+        <option value="$PROJECT_DIR$/TestBot/Controllers/AppFaceController.cs" />
+        <option value="$PROJECT_DIR$/TestBot/AppManager.cs" />
+        <option value="$PROJECT_DIR$/Autumn.Utils/Extensions.cs" />
+        <option value="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle404Component.cs" />
+        <option value="$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle500Component.cs" />
+        <option value="$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs" />
+        <option value="$PROJECT_DIR$/TestBot/web/view/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-56" />
-    <option name="y" value="230" />
+    <option name="x" value="-57" />
+    <option name="y" value="379" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -408,18 +398,42 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Autumn.MVC" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Autumn.MVC" type="24d0babc:SolutionExplorerModelNode" />
               <item name="WebComponents" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Autumn.Utils" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
               <item name="TestBot" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TestBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TestBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Trading" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TestBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="web" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Autumn" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TestBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="view" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -542,12 +556,14 @@
       <workItem from="1575141925242" duration="3559000" />
       <workItem from="1575185590995" duration="2341000" />
       <workItem from="1575203280447" duration="11905000" />
-      <workItem from="1575230046761" duration="896000" />
+      <workItem from="1575230046761" duration="5451000" />
+      <workItem from="1575269650292" duration="335000" />
+      <workItem from="1575315019928" duration="2788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85618000" />
+    <option name="totallyTimeSpent" value="93296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,6 +576,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32995737" />
       <window_info id="Image Layers" order="1" />
@@ -572,19 +589,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32942432" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32942432" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="11" weight="0.41257995" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.36353946" />
+      <window_info anchor="bottom" id="Build" order="12" visible="true" weight="0.36353946" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Missing In Actions" order="16" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Call Graph" order="1" side_tool="true" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="2" visible="true" weight="0.26865673" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="2" visible="true" weight="0.17750533" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
@@ -680,52 +697,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Experiments/web/js/core.js" />
-    <entry file="file://$PROJECT_DIR$/Experiments/VirtualMouse.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D10D71C-82A2-4E0A-8D97-A79A0A41B219/bd/2f93c905/HttpListenerContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <marker date="1574889723803" expanded="true" signature="0:339" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1574889723803" expanded="true" signature="641:6830" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="685:6828" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="919:984" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="935:978" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="1098:1262" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="1114:1256" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="1357:1487" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="1616:1707" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="1806:2531" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="2613:2995" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3115:3196" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3131:3190" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3232:3301" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3248:3295" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3345:3433" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3361:3427" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3493:3586" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3509:3580" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3616:3693" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3632:3687" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="3851:4191" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="4440:4574" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="4601:5349" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="4740:4789" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="4803:5206" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="4823:4875" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="4891:5198" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="5376:5872" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="5595:5641" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="5655:5729" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="5929:6235" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="6323:6440" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="6526:6714" ph="{...}" />
-            <marker date="1574889723803" expanded="true" signature="6760:6824" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D10D71C-82A2-4E0A-8D97-A79A0A41B219/45/29060c70/HttpListenerResponse.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -801,42 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle404Component.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
-          <folding>
-            <marker date="1575128979941" expanded="true" signature="6:150" ph="..." />
-            <marker date="1575128979941" expanded="true" signature="172:1436" ph="{...}" />
-            <marker date="1575128979941" expanded="true" signature="225:1434" ph="{...}" />
-            <marker date="1575128979941" expanded="true" signature="372:417" ph="{...}" />
-            <marker date="1575128979941" expanded="true" signature="521:883" ph="{...}" />
-            <marker date="1575128979941" expanded="true" signature="605:679" ph="{...}" />
-            <marker date="1575128979941" expanded="true" signature="687:862" ph="{...}" />
-            <marker date="1575128979941" expanded="true" signature="1041:1431" ph="{...}" />
-            <marker date="1575128979941" expanded="true" signature="1085:1234" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle500Component.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-          <folding>
-            <marker date="1575129250290" expanded="true" signature="6:150" ph="..." />
-            <marker date="1575129250290" expanded="true" signature="172:1511" ph="{...}" />
-            <marker date="1575129250290" expanded="true" signature="225:1509" ph="{...}" />
-            <marker date="1575129250290" expanded="true" signature="367:412" ph="{...}" />
-            <marker date="1575129250290" expanded="true" signature="518:883" ph="{...}" />
-            <marker date="1575129250290" expanded="true" signature="602:676" ph="{...}" />
-            <marker date="1575129250290" expanded="true" signature="684:859" ph="{...}" />
-            <marker date="1575129250290" expanded="true" signature="1001:1506" ph="{...}" />
-            <marker date="1575129250290" expanded="true" signature="1045:1305" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Autumn.MVC/Model/DefaultPageModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -844,23 +779,6 @@
           <folding>
             <marker date="1575128886366" expanded="true" signature="20:164" ph="{...}" />
             <marker date="1575128886366" expanded="true" signature="53:162" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebDefines.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1575130046549" expanded="true" signature="55:1850" ph="{...}" />
-            <marker date="1575130046549" expanded="true" signature="82:118" ph="{...}" />
-            <marker date="1575130046549" expanded="true" signature="139:204" ph="{...}" />
-            <marker date="1575130046549" expanded="true" signature="237:1848" ph="{...}" />
-            <marker date="1575130046549" expanded="true" signature="943:1270" ph="{...}" />
-            <marker date="1575130046549" expanded="true" signature="1388:1501" ph="{...}" />
-            <marker date="1575130046549" expanded="true" signature="1570:1681" ph="{...}" />
-            <marker date="1575130046549" expanded="true" signature="1744:1845" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -938,37 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWorld01/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <marker date="1575206512898" expanded="true" signature="37:152" ph="{...}" />
-            <marker date="1575206512898" expanded="true" signature="54:150" ph="{...}" />
-            <marker date="1575206512898" expanded="true" signature="91:147" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBot/Trading/HashManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <marker date="1575219213165" expanded="true" signature="6:102" ph="..." />
-            <marker date="1575219213165" expanded="true" signature="123:997" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="185:502" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="236:356" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="278:314" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="394:499" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="536:995" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="734:927" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="800:881" ph="{...}" />
-            <marker date="1575219213165" expanded="true" signature="961:992" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWorld01/Program.cs" />
     <entry file="file://$PROJECT_DIR$/Autumn.IOC/Container.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -991,19 +879,6 @@
             <marker date="1574882897540" expanded="true" signature="3616:3716" ph="{...}" />
             <marker date="1574882897540" expanded="true" signature="3785:4269" ph="{...}" />
             <marker date="1574882897540" expanded="true" signature="4079:4182" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiments/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1575225335132" expanded="true" signature="6:31" ph="..." />
-            <marker date="1575225335132" expanded="true" signature="54:496" ph="{...}" />
-            <marker date="1575225335132" expanded="true" signature="74:494" ph="{...}" />
-            <marker date="1575225335132" expanded="true" signature="127:488" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1033,22 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.Utils/FileUtils.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <marker date="1575222088569" expanded="true" signature="22:1474" ph="{...}" />
-            <marker date="1575222088569" expanded="true" signature="55:1472" ph="{...}" />
-            <marker date="1575222088569" expanded="true" signature="132:288" ph="{...}" />
-            <marker date="1575222088569" expanded="true" signature="143:284" ph="{...}" />
-            <marker date="1575222088569" expanded="true" signature="348:557" ph="{...}" />
-            <marker date="1575222088569" expanded="true" signature="615:1295" ph="{...}" />
-            <marker date="1575222088569" expanded="true" signature="1354:1469" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20735148-1523-4917-A5E8-F91B0B239405/96/3f992da3/JsonConvert.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1060,21 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebAttrybutes.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1575108711320" expanded="true" signature="35:1131" ph="{...}" />
-            <marker date="1575108711320" expanded="true" signature="161:915" ph="{...}" />
-            <marker date="1575108711320" expanded="true" signature="479:618" ph="{...}" />
-            <marker date="1575108711320" expanded="true" signature="769:912" ph="{...}" />
-            <marker date="1575108711320" expanded="true" signature="1021:1129" ph="{...}" />
-            <marker date="1575108711320" expanded="true" signature="1096:1126" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,44 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.Utils/SmartFileHierarchy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
-          <folding>
-            <marker date="1575223049885" expanded="true" signature="6:83" ph="..." />
-            <marker date="1575223049885" expanded="true" signature="107:3996" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="142:3994" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="475:653" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="704:754" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="808:861" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="929:1179" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="1184:2296" ph="///&#9;&#9;Итак. ... " />
-            <marker date="1575223049885" expanded="true" signature="2383:3991" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="2725:3970" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="2831:3965" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="2899:3397" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="2929:3205" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="2980:3197" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="3420:3679" ph="{...}" />
-            <marker date="1575223049885" expanded="true" signature="3469:3672" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvRawFilesComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1575225420310" expanded="false" signature="6:134" ph="..." />
-            <marker date="1575225420310" expanded="true" signature="156:990" ph="{...}" />
-            <marker date="1575225420310" expanded="true" signature="208:988" ph="{...}" />
-            <marker date="1575225420310" expanded="true" signature="368:985" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,74 +999,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradeTest/Program.cs">
+    <entry file="file://$PROJECT_DIR$/TradeTest/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/Autumn.MVC/Program.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90F662D7-4573-4763-8BD0-A5B4BF5BEDDC/93/23d1d24f/Container.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding>
-            <marker date="1575227868942" expanded="true" signature="50:882" ph="{...}" />
-            <marker date="1575227868942" expanded="true" signature="67:880" ph="{...}" />
-            <marker date="1575227868942" expanded="true" signature="278:877" ph="{...}" />
-            <marker date="1575227868942" expanded="true" signature="286:873" ph="/* Console.WriteLine(&quot;Hello World!&quot;); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBot/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <marker date="1575227918594" expanded="true" signature="6:49" ph="..." />
-            <marker date="1575227918594" expanded="true" signature="68:585" ph="{...}" />
-            <marker date="1575227918594" expanded="true" signature="85:583" ph="{...}" />
-            <marker date="1575227918594" expanded="true" signature="122:580" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBot/AppManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1575227741150" expanded="false" signature="6:91" ph="..." />
-            <marker date="1575227741150" expanded="true" signature="110:840" ph="{...}" />
-            <marker date="1575227741150" expanded="true" signature="136:227" ph="{...}" />
-            <marker date="1575227741150" expanded="true" signature="269:838" ph="{...}" />
-            <marker date="1575227741150" expanded="true" signature="452:793" ph="{...}" />
-            <marker date="1575227741150" expanded="true" signature="827:835" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBot/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <marker date="1575225354968" expanded="false" signature="6:116" ph="..." />
-            <marker date="1575225354968" expanded="true" signature="138:1378" ph="{...}" />
-            <marker date="1575225354968" expanded="true" signature="167:1376" ph="{...}" />
-            <marker date="1575225354968" expanded="true" signature="427:595" ph="{...}" />
-            <marker date="1575225354968" expanded="true" signature="712:760" ph="{...}" />
-            <marker date="1575225354968" expanded="true" signature="870:1373" ph="{...}" />
-            <marker date="1575225354968" expanded="true" signature="1118:1197" ph="{...}" />
-            <marker date="1575225354968" expanded="true" signature="1205:1369" ph="{...}" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestBot/Trading/BitMEXApi.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
+        <state relative-caret-position="212">
           <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
           <folding>
             <marker date="1575188453897" expanded="true" signature="33:188" ph="..." />
@@ -1297,41 +1047,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs">
+    <entry file="file://$PROJECT_DIR$/Experiments/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="176">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
-            <marker date="1575228827530" expanded="false" signature="6:63" ph="..." />
-            <marker date="1575228827530" expanded="true" signature="82:636" ph="{...}" />
-            <marker date="1575228827530" expanded="true" signature="134:634" ph="{...}" />
-            <marker date="1575228827530" expanded="true" signature="302:408" ph="{...}" />
-            <marker date="1575228827530" expanded="true" signature="496:631" ph="{...}" />
+            <marker date="1575225335132" expanded="true" signature="6:31" ph="..." />
+            <marker date="1575225335132" expanded="true" signature="54:496" ph="{...}" />
+            <marker date="1575225335132" expanded="true" signature="74:494" ph="{...}" />
+            <marker date="1575225335132" expanded="true" signature="127:488" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBot/web/view/index.html">
+    <entry file="file://$PROJECT_DIR$/TestBot/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="103" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Autumn.MVC/Program.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90F662D7-4573-4763-8BD0-A5B4BF5BEDDC/93/23d1d24f/Container.cs">
+    <entry file="file://$PROJECT_DIR$/TestBot/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="459">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <marker date="1575227918594" expanded="true" signature="6:49" ph="..." />
+            <marker date="1575227918594" expanded="true" signature="68:585" ph="{...}" />
+            <marker date="1575227918594" expanded="true" signature="85:583" ph="{...}" />
+            <marker date="1575227918594" expanded="true" signature="122:580" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvRawFilesComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+          <folding>
+            <marker date="1575269695028" expanded="false" signature="6:134" ph="..." />
+            <marker date="1575269695028" expanded="true" signature="156:1076" ph="{...}" />
+            <marker date="1575269695028" expanded="true" signature="208:1074" ph="{...}" />
+            <marker date="1575269695028" expanded="true" signature="368:1071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.Utils/FileUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <marker date="1575222088569" expanded="true" signature="22:1474" ph="{...}" />
+            <marker date="1575222088569" expanded="true" signature="55:1472" ph="{...}" />
+            <marker date="1575222088569" expanded="true" signature="132:288" ph="{...}" />
+            <marker date="1575222088569" expanded="true" signature="143:284" ph="{...}" />
+            <marker date="1575222088569" expanded="true" signature="348:557" ph="{...}" />
+            <marker date="1575222088569" expanded="true" signature="615:1295" ph="{...}" />
+            <marker date="1575222088569" expanded="true" signature="1354:1469" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.Utils/SmartFileHierarchy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <marker date="1575223049885" expanded="true" signature="6:83" ph="..." />
+            <marker date="1575223049885" expanded="true" signature="107:3996" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="142:3994" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="475:653" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="704:754" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="808:861" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="929:1179" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="1184:2296" ph="///&#9;&#9;Итак. ... " />
+            <marker date="1575223049885" expanded="true" signature="2383:3991" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="2725:3970" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="2831:3965" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="2899:3397" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="2929:3205" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="2980:3197" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="3420:3679" ph="{...}" />
+            <marker date="1575223049885" expanded="true" signature="3469:3672" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Autumn.MVC/MvcContainer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="2567">
+          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
           <folding>
             <marker date="1575230578805" expanded="true" signature="6:220" ph="..." />
             <marker date="1575230578805" expanded="true" signature="242:4675" ph="{...}" />
@@ -1358,25 +1164,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <marker date="1575225354968" expanded="false" signature="6:116" ph="..." />
+            <marker date="1575225354968" expanded="true" signature="138:1378" ph="{...}" />
+            <marker date="1575225354968" expanded="true" signature="167:1376" ph="{...}" />
+            <marker date="1575225354968" expanded="true" signature="427:595" ph="{...}" />
+            <marker date="1575225354968" expanded="true" signature="712:760" ph="{...}" />
+            <marker date="1575225354968" expanded="true" signature="870:1373" ph="{...}" />
+            <marker date="1575225354968" expanded="true" signature="1118:1197" ph="{...}" />
+            <marker date="1575225354968" expanded="true" signature="1205:1369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebDefines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <marker date="1575269881786" expanded="true" signature="55:1850" ph="{...}" />
+            <marker date="1575269881786" expanded="true" signature="82:118" ph="{...}" />
+            <marker date="1575269881786" expanded="true" signature="139:204" ph="{...}" />
+            <marker date="1575269881786" expanded="true" signature="237:1848" ph="{...}" />
+            <marker date="1575269881786" expanded="true" signature="943:1270" ph="{...}" />
+            <marker date="1575269881786" expanded="true" signature="1388:1501" ph="{...}" />
+            <marker date="1575269881786" expanded="true" signature="1570:1681" ph="{...}" />
+            <marker date="1575269881786" expanded="true" signature="1744:1845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBot/Trading/HashManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <marker date="1575219213165" expanded="true" signature="6:102" ph="..." />
+            <marker date="1575219213165" expanded="true" signature="123:997" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="185:502" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="236:356" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="278:314" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="394:499" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="536:995" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="734:927" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="800:881" ph="{...}" />
+            <marker date="1575219213165" expanded="true" signature="961:992" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebAttrybutes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
+          <folding>
+            <marker date="1575318923316" expanded="true" signature="35:1148" ph="{...}" />
+            <marker date="1575318923316" expanded="true" signature="161:915" ph="{...}" />
+            <marker date="1575318923316" expanded="true" signature="479:618" ph="{...}" />
+            <marker date="1575318923316" expanded="true" signature="769:912" ph="{...}" />
+            <marker date="1575318923316" expanded="true" signature="1021:1146" ph="{...}" />
+            <marker date="1575318923316" expanded="true" signature="1113:1143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestBot/Controllers/AppFaceController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
-            <marker date="1575228724737" expanded="false" signature="6:49" ph="..." />
-            <marker date="1575228724737" expanded="true" signature="68:609" ph="{...}" />
-            <marker date="1575228724737" expanded="true" signature="97:155" ph="{...}" />
-            <marker date="1575228724737" expanded="true" signature="204:607" ph="{...}" />
-            <marker date="1575228724737" expanded="true" signature="404:604" ph="{...}" />
-            <marker date="1575228724737" expanded="true" signature="508:599" ph="{...}" />
+            <marker date="1575319058004" expanded="false" signature="6:49" ph="..." />
+            <marker date="1575319058004" expanded="true" signature="68:686" ph="{...}" />
+            <marker date="1575319058004" expanded="true" signature="97:188" ph="{...}" />
+            <marker date="1575319058004" expanded="true" signature="236:684" ph="{...}" />
+            <marker date="1575319058004" expanded="true" signature="434:681" ph="{...}" />
+            <marker date="1575319058004" expanded="true" signature="535:676" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvControllerInvokeComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="-23">
+          <caret line="68" column="50" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="50" />
           <folding>
             <marker date="1575227945828" expanded="false" signature="6:290" ph="..." />
             <marker date="1575227945828" expanded="true" signature="312:6223" ph="{...}" />
@@ -1400,6 +1274,108 @@
             <marker date="1575227945828" expanded="true" signature="5408:6005" ph="{...}" />
             <marker date="1575227945828" expanded="true" signature="6078:6218" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D10D71C-82A2-4E0A-8D97-A79A0A41B219/ed/8254e4a9/HttpListenerRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="483" column="23" lean-forward="true" selection-start-line="483" selection-start-column="23" selection-end-line="483" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C3386411-E9E2-4A39-B532-1C13859B5BB2/2a/1500408a/NameValueCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.Utils/Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <marker date="1575320176185" expanded="true" signature="22:202" ph="{...}" />
+            <marker date="1575320176185" expanded="true" signature="56:200" ph="{...}" />
+            <marker date="1575320176185" expanded="true" signature="111:197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle404Component.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="64" />
+          <folding>
+            <marker date="1575320198360" expanded="false" signature="6:170" ph="..." />
+            <marker date="1575320198360" expanded="true" signature="192:1486" ph="{...}" />
+            <marker date="1575320198360" expanded="true" signature="245:1484" ph="{...}" />
+            <marker date="1575320198360" expanded="true" signature="392:437" ph="{...}" />
+            <marker date="1575320198360" expanded="true" signature="541:903" ph="{...}" />
+            <marker date="1575320198360" expanded="true" signature="625:699" ph="{...}" />
+            <marker date="1575320198360" expanded="true" signature="707:882" ph="{...}" />
+            <marker date="1575320198360" expanded="true" signature="1061:1481" ph="{...}" />
+            <marker date="1575320198360" expanded="true" signature="1105:1284" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autumn.MVC/WebComponents/McvHandle500Component.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <marker date="1575320216501" expanded="false" signature="6:170" ph="..." />
+            <marker date="1575320216501" expanded="true" signature="192:1453" ph="{...}" />
+            <marker date="1575320216501" expanded="true" signature="245:1451" ph="{...}" />
+            <marker date="1575320216501" expanded="true" signature="387:432" ph="{...}" />
+            <marker date="1575320216501" expanded="true" signature="538:903" ph="{...}" />
+            <marker date="1575320216501" expanded="true" signature="622:696" ph="{...}" />
+            <marker date="1575320216501" expanded="true" signature="704:879" ph="{...}" />
+            <marker date="1575320216501" expanded="true" signature="1021:1448" ph="{...}" />
+            <marker date="1575320216501" expanded="true" signature="1065:1247" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBot/AppManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <marker date="1575319351150" expanded="false" signature="6:125" ph="..." />
+            <marker date="1575319351150" expanded="true" signature="144:1169" ph="{...}" />
+            <marker date="1575319351150" expanded="true" signature="170:261" ph="{...}" />
+            <marker date="1575319351150" expanded="true" signature="287:338" ph="{...}" />
+            <marker date="1575319351150" expanded="true" signature="380:1167" ph="{...}" />
+            <marker date="1575319351150" expanded="true" signature="602:985" ph="{...}" />
+            <marker date="1575319351150" expanded="true" signature="1019:1027" ph="{...}" />
+            <marker date="1575319351150" expanded="true" signature="1069:1164" ph="{...}" />
+            <marker date="1575319351150" expanded="true" signature="1108:1158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBot/Controllers/AppWebhookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <marker date="1575320845246" expanded="false" signature="6:120" ph="..." />
+            <marker date="1575320845246" expanded="true" signature="139:1291" ph="{...}" />
+            <marker date="1575320845246" expanded="true" signature="191:1289" ph="{...}" />
+            <marker date="1575320845246" expanded="true" signature="359:465" ph="{...}" />
+            <marker date="1575320845246" expanded="true" signature="606:996" ph="{...}" />
+            <marker date="1575320845246" expanded="true" signature="1149:1286" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBot/web/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="22" column="156" selection-start-line="22" selection-start-column="156" selection-end-line="22" selection-end-column="156" />
         </state>
       </provider>
     </entry>

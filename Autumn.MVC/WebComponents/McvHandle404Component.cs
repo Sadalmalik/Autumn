@@ -4,6 +4,7 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Autumn.Utils;
 using Scriban;
 
 namespace Autumn.MVC
@@ -44,10 +45,7 @@ namespace Autumn.MVC
 				code        = 404,
 				header      = "Page not found!",
 				description = "Could not find the specified resource!",
-				stacktrace  = exception?
-				             .ToString()
-				             .Replace("<","&lt;")
-				             .Replace(">","&gt;")
+				stacktrace  = exception?.ToString().EscapeHTML()
 			};
 			string body   = _template.Render(model);
 			byte[] result = Encoding.UTF8.GetBytes(body);
