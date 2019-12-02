@@ -20,6 +20,9 @@ namespace Autumn.MVC
 			var filePath  = container.fileHierarchy.FindFile(rout);
 			var extension = Path.GetExtension(rout);
 
+			if(filePath==null)
+				throw new NotFoundException($"File {rout} not found!");
+			
 			response.ContentType = WebUtils.AddToHeader(
 				context.Response.ContentType,
 				WebDefines.GetContentTypeByExtension(extension),

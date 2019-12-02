@@ -44,7 +44,10 @@ namespace Autumn.MVC
 				code        = 404,
 				header      = "Page not found!",
 				description = "Could not find the specified resource!",
-				stacktrace  = null
+				stacktrace  = exception?
+				             .ToString()
+				             .Replace("<","&lt;")
+				             .Replace(">","&gt;")
 			};
 			string body   = _template.Render(model);
 			byte[] result = Encoding.UTF8.GetBytes(body);
