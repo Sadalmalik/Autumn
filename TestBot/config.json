@@ -1,6 +1,7 @@
 {
+  "workDirectory": "/develop",
   "Prefixes":[
-    "http://localhost:8096/"
+    "http://109.234.38.101:80/"
   ],
   "BitmexKey": "TvbPcwV0KaWUESULvJhwpCFM",
   "BitmexSecret": "jOlgND9wqO3bhbVixKMXnSeyP1g4Z6AL3w7QyRYLau7HFtGi"

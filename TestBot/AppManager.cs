@@ -9,6 +9,7 @@ namespace TestBot
 {
 	public class AppConfig
 	{
+		public string workDirectory;
 		public string[] Prefixes;
 		public string BitmexKey;
 		public string BitmexSecret;

@@ -1,6 +1,7 @@
 ﻿using System;
 using Autumn.IOC;
 using Autumn.MVC;
+using Autumn.Utils;
 
 namespace TestBot
 {
@@ -14,8 +15,13 @@ namespace TestBot
 
 			appRoot.Init();
 
+			var hierarchy = FileUtils.BuildWebHierarchy();
+			hierarchy.AddRootPaths(app.config.workDirectory);
+			hierarchy.searchHeight = 0;
+			
 			var mvc = new MvcContainer(appRoot);
 			mvc.AddPrefixes(app.config.Prefixes);
+			mvc.SetFileHierarchy(hierarchy);
 			mvc.Add<AppFaceController>();
 			mvc.Add<AppWebhookController>();
 			mvc.AddDefaultFilesComponent();
