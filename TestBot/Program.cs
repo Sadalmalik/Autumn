@@ -16,12 +16,11 @@ namespace TestBot
 			appRoot.Init();
 
 			var hierarchy = FileUtils.BuildWebHierarchy();
-			hierarchy.AddRootPaths(app.config.workDirectory);
+			hierarchy.AddRootPaths(app.config.WorkDirectory);
 			hierarchy.searchHeight = 0;
 			
-			var mvc = new MvcContainer(appRoot);
+			var mvc = new MvcContainer(appRoot, smartFileHierarchy: hierarchy);
 			mvc.AddPrefixes(app.config.Prefixes);
-			mvc.SetFileHierarchy(hierarchy);
 			mvc.Add<AppFaceController>();
 			mvc.Add<AppWebhookController>();
 			mvc.AddDefaultFilesComponent();

@@ -137,15 +137,17 @@ namespace Autumn.MVC
 
 			while (_work)
 				HandleConnection(await _listener.GetContextAsync());
+			
+			_listener.Close();
+			
+			if (_isInner)
+				_innerContainer.Dispose();
 		}
 
 		public void Stop()
 		{
 			_work = false;
 			_cancel.Cancel();
-			_listener.Close();
-			if (_isInner)
-				_innerContainer.Dispose();
 		}
 
 		private async void HandleConnection(HttpListenerContext context)

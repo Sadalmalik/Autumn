@@ -24,7 +24,7 @@ namespace Autumn.Utils
 
 		public void AddRootPaths(params string[] paths)
 		{
-			_pathRoots.AddRange(paths.Distinct());
+			_pathRoots.AddRange(paths.Where(x => !string.IsNullOrEmpty(x)).Distinct());
 		}
 
 		public void AddGeneralPaths(params string[] paths)
@@ -75,16 +75,16 @@ namespace Autumn.Utils
 			if (_pathRoots.Count == 0)
 				_pathRoots.Add(FileUtils.CurrentPath);
 
-			var    ext        = Path.GetExtension(filename);
-			var    extEnabled = _pathsExtensionSpecified.ContainsKey(ext);
-			var    extensions = extEnabled ? _pathsExtensionSpecified[ext] : null;
+			var ext        = Path.GetExtension(filename);
+			var extEnabled = _pathsExtensionSpecified.ContainsKey(ext);
+			var extensions = extEnabled ? _pathsExtensionSpecified[ext] : null;
 
 			byExtension &= extEnabled;
 
 			foreach (string _root in _pathRoots)
 			{
 				string root = Path.GetFullPath(_root);
-				for (int height = searchHeight; height > 0; height--)
+				for (int height = searchHeight; height >= 0; height--)
 				{
 					string path;
 					foreach (var general in _pathsGeneral)
@@ -95,13 +95,13 @@ namespace Autumn.Utils
 							{
 								path = Path.Combine(root, general, extPath, filename);
 								if (debug) Console.WriteLine($"Check path {path} = {File.Exists(path)}");
-								if (File.Exists(path) && !debug) return path;
+								if (File.Exists(path)) return path;
 							}
 						}
 
 						path = Path.Combine(root, general, filename);
 						if (debug) Console.WriteLine($"Check path {path} = {File.Exists(path)}");
-						if (File.Exists(path) && !debug) return path;
+						if (File.Exists(path)) return path;
 					}
 
 					if (byExtension)
@@ -110,13 +110,13 @@ namespace Autumn.Utils
 						{
 							path = Path.Combine(root, extPath, filename);
 							if (debug) Console.WriteLine($"Check path {path} = {File.Exists(path)}");
-							if (File.Exists(path) && !debug) return path;
+							if (File.Exists(path)) return path;
 						}
 					}
 
 					path = Path.Combine(root, filename);
 					if (debug) Console.WriteLine($"Check path {path} = {File.Exists(path)}");
-					if (File.Exists(path) && !debug) return path;
+					if (File.Exists(path)) return path;
 
 					var parent = Directory.GetParent(root);
 					if (parent == null) break;

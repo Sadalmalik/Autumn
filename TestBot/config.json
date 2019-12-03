@@ -1,5 +1,5 @@
 {
-  "workDirectory": "/develop",
+  "WorkDirectory": "/develop/",
   "Prefixes":[
     "http://109.234.38.101:80/"
   ],

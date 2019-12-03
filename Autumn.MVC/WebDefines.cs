@@ -48,7 +48,7 @@ namespace Autumn.MVC
 <body>
 	<h1>{{code}}</h1><h2>{{header}}</h2>
 	<p>{{description}}</p>
-	<plaintext>{{stacktrace}}</plaintext>
+	<pre>{{stacktrace}}</pre>
 </body>
 </html>";
 
