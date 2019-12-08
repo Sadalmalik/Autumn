@@ -25,11 +25,16 @@ namespace Autumn.MVC
 			return this;
 		}
 
-		public virtual Task Handle(HttpListenerContext context, string rout, Match routMatch, Exception exception = null)
+		public virtual Task Handle(
+			HttpListenerContext context,
+			string              rout,
+			Match               routMatch,
+			Exception           exception = null,
+			Method              method    = Method.UNKNOWN)
 		{
 			throw new NotImplementedException();
 		}
-		
+
 		public static void SendContent(HttpListenerContext context, int status, ContentType type, byte[] buffer)
 		{
 			var response = context.Response;
@@ -39,7 +44,7 @@ namespace Autumn.MVC
 				context.Response.ContentType,
 				WebDefines.GetContentTypeByEnum(type),
 				"charset=utf-8");
-			
+
 			if (buffer == null)
 			{
 				response.ContentLength64 = 0;

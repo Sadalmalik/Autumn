@@ -9,8 +9,12 @@ namespace Autumn.MVC
 {
 	public class McvRawFilesComponent : McvComponent
 	{
-		public override Task Handle(HttpListenerContext context, string rout, Match routMatch,
-		                            Exception           exception = null)
+		public override Task Handle(
+			HttpListenerContext context,
+			string              rout,
+			Match               routMatch,
+			Exception           exception = null,
+			Method              method    = Method.UNKNOWN)
 		{
 			var response = context.Response;
 
@@ -20,9 +24,9 @@ namespace Autumn.MVC
 			var filePath  = container.fileHierarchy.FindFile(rout);
 			var extension = Path.GetExtension(rout);
 
-			if(filePath==null)
+			if (filePath == null)
 				throw new NotFoundException($"File {rout} not found!");
-			
+
 			response.ContentType = WebUtils.AddToHeader(
 				context.Response.ContentType,
 				WebDefines.GetContentTypeByExtension(extension),

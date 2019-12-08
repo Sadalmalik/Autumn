@@ -37,8 +37,12 @@ namespace Autumn.MVC
 			return this;
 		}
 
-		public override Task Handle(HttpListenerContext context, string rout, Match routMatch,
-		                            Exception           exception = null)
+		public override Task Handle(
+			HttpListenerContext context,
+			string              rout,
+			Match               routMatch,
+			Exception           exception = null,
+			Method              method    = Method.UNKNOWN)
 		{
 			var model = new DefaultPageModel
 			{

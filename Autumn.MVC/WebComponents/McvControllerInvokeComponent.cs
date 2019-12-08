@@ -47,7 +47,7 @@ namespace Autumn.MVC
 			}
 		}
 
-		public void SetInvokationTarget(MethodInfo method, object target)
+		public void SetInvocationTarget(MethodInfo method, object target)
 		{
 			_invocationMethod = method;
 			_invocationTarget = target;
@@ -57,14 +57,17 @@ namespace Autumn.MVC
 			_isAsync = IsAsyncMethod(method);
 		}
 
-		private object ResolvaParameter(
-			ParameterInfo              parametr,
+		private static object ResolveParameter(
+			ParameterInfo              parameter,
 			Dictionary<string, string> arguments,
 			HttpListenerContext        context,
-			byte[]                     rawContent)
+			byte[]                     rawContent,
+			Method                     method)
 		{
-			var type = parametr.ParameterType;
+			var type = parameter.ParameterType;
 
+			//  Сначала особые случаи, которые мы хотим получать
+			if (type == typeof(Method)) return method;
 			if (type == typeof(HttpListenerContext)) return context;
 			if (type == typeof(HttpListenerRequest)) return context.Request;
 			if (type == typeof(HttpListenerResponse)) return context.Response;
@@ -86,7 +89,8 @@ namespace Autumn.MVC
 				throw new ArgumentException($"Can't transform input content to '{type.Name}' type!");
 			}
 
-			if (arguments.TryGetValue(parametr.Name, out var value))
+			//  Если особые случаи не прошли - пробуем распарсить данные в стандартные форматы
+			if (arguments.TryGetValue(parameter.Name, out var value))
 			{
 				if (type == typeof(bool)) return bool.Parse(value);
 				if (type == typeof(char)) return char.Parse(value);
@@ -104,6 +108,7 @@ namespace Autumn.MVC
 				if (type.IsEnum) return Enum.Parse(type, value);
 			}
 
+			//  Если ничего не подошло - возвращаем нихуяшку
 			if (type.IsValueType)
 				return Activator.CreateInstance(type);
 			return null;
@@ -113,7 +118,8 @@ namespace Autumn.MVC
 			HttpListenerContext context,
 			string              rout,
 			Match               routMatch,
-			Exception           exception = null)
+			Exception           exception = null,
+			Method              method    = Method.UNKNOWN)
 		{
 			var request = context.Request;
 
@@ -124,7 +130,7 @@ namespace Autumn.MVC
 
 			var invocationParameters =
 				_parameters
-				   .Select(par => ResolvaParameter(par, arguments, context, content))
+				   .Select(par => ResolveParameter(par, arguments, context, content, method))
 				   .ToArray();
 
 			object rawContent = null;

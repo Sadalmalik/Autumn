@@ -100,7 +100,7 @@ namespace Autumn.MVC
 					var component = new McvControllerInvokeComponent();
 					component.Setup(controller.method, controller.rout, controller.priority, this);
 					component.SetConfiguration(controller);
-					component.SetInvokationTarget(method, shared);
+					component.SetInvocationTarget(method, shared);
 					_components.Add(component);
 				}
 			}
@@ -160,7 +160,9 @@ namespace Autumn.MVC
 			{
 				foreach (var comp in _components)
 				{
-					if (meshod != comp.method) continue;
+					if (comp.method!=Method.ANY)
+						if (meshod != comp.method)
+							continue;
 
 					Match match = comp.route.Match(rout);
 					if (!match.Success) continue;
