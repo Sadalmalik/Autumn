@@ -22,6 +22,11 @@ namespace Autumn.Utils
 			_pathsExtensionSpecified = new Dictionary<string, List<string>>();
 		}
 
+		public void AddDefaultRootPath()
+		{
+			_pathRoots.Add(FileUtils.CurrentPath);
+		}
+		
 		public void AddRootPaths(params string[] paths)
 		{
 			_pathRoots.AddRange(paths.Where(x => !string.IsNullOrEmpty(x)).Distinct());

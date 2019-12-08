@@ -1,3 +1,5 @@
+using System.IO;
+
 namespace Autumn.Utils
 {
 	public static class FileUtils
@@ -9,7 +11,7 @@ namespace Autumn.Utils
 			get
 			{
 				if (_currentPath == null)
-					_currentPath = System.Reflection.Assembly.GetEntryAssembly().Location;
+					_currentPath = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
 				return _currentPath;
 			}
 		}

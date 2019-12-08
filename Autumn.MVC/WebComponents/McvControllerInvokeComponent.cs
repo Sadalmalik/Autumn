@@ -72,12 +72,12 @@ namespace Autumn.MVC
 			if (type == typeof(HttpListenerRequest)) return context.Request;
 			if (type == typeof(HttpListenerResponse)) return context.Response;
 
-			var content = Attribute.GetCustomAttribute(type, typeof(WebContent)) as WebContent;
-			if (content != null)
+			var content = Attribute.GetCustomAttribute(parameter, typeof(WebContent)) as WebContent;
+			if (content!=null)
 			{
 				if (content.type == ContentType.Bin)
 				{
-					if (type == typeof(byte))
+					if (type == typeof(byte[]))
 						return rawContent;
 				}
 
@@ -122,7 +122,7 @@ namespace Autumn.MVC
 			Method              method    = Method.UNKNOWN)
 		{
 			var request = context.Request;
-
+			
 			byte[] content = new byte[request.ContentLength64];
 			request.InputStream.Read(content, 0, content.Length);
 

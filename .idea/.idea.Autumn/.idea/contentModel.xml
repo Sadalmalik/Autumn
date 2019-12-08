@@ -60,8 +60,17 @@
       <e p="Autumn.Utils" t="IncludeRecursive">
         <e p="Autumn.Utils.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DataUtils.cs" t="Include" />
         <e p="Extensions.cs" t="Include" />
         <e p="FileUtils.cs" t="Include" />
+        <e p="HashManager.cs" t="Include" />
+        <e p="Logger" t="Include">
+          <e p="DefaultLogTarget.cs" t="Include" />
+          <e p="FileLogTarget.cs" t="Include" />
+          <e p="Log.cs" t="Include" />
+          <e p="LogTarget.cs" t="Include" />
+          <e p="ObservableLogTarget.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
@@ -110,6 +119,7 @@
         <e p="Program.cs" t="Include" />
         <e p="start.sh" t="Include" />
         <e p="stop.sh" t="Include" />
+        <e p="stop.web.sh" t="Include" />
         <e p="TestBot.csproj" t="IncludeRecursive" />
         <e p="Trading" t="Include">
           <e p="BitMEXApi.cs" t="Include" />
@@ -121,7 +131,6 @@
           <e p="img" t="Include">
             <e p="favicon.ico" t="Include" />
           </e>
-          <e p="js" t="Include" />
           <e p="View" t="Include">
             <e p="index.html" t="Include" />
           </e>
@@ -131,8 +140,6 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="BitMEXApi.cs" t="Include" />
         <e p="BitmexConnection.cs" t="Include" />
-        <e p="DataUtils.cs" t="Include" />
-        <e p="HashManager.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">

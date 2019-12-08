@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Autumn.IOC;
 using Autumn.Utils;
+using Autumn.Utils.Logger;
 
 namespace Autumn.MVC
 {
