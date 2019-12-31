@@ -102,52 +102,9 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="TestBot" t="IncludeRecursive">
-        <e p="AppManager.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="config.json" t="Include" />
-        <e p="Controllers" t="Include">
-          <e p="AppFaceController.cs" t="Include" />
-          <e p="AppWebhookController.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp2.1" t="Include">
-              <e p="TestBot.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Program.cs" t="Include" />
-        <e p="start.sh" t="Include" />
-        <e p="stop.sh" t="Include" />
-        <e p="stop.web.sh" t="Include" />
         <e p="TestBot.csproj" t="IncludeRecursive" />
-        <e p="Trading" t="Include">
-          <e p="BitMEXApi.cs" t="Include" />
-        </e>
-        <e p="Web" t="Include">
-          <e p="css" t="Include">
-            <e p="bootstrap.min.css" t="Include" />
-          </e>
-          <e p="img" t="Include">
-            <e p="favicon.ico" t="Include" />
-          </e>
-          <e p="View" t="Include">
-            <e p="index.html" t="Include" />
-          </e>
-        </e>
       </e>
       <e p="Tests" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="BitMEXApi.cs" t="Include" />
-        <e p="BitmexConnection.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp2.1" t="Include">
-              <e p="Tests.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Program.cs" t="Include" />
         <e p="Tests.csproj" t="IncludeRecursive" />
       </e>
     </e>
