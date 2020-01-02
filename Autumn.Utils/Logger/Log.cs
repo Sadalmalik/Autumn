@@ -35,29 +35,36 @@ namespace Autumn.Utils.Logger
 			return DateTime.Now.ToString(timeFileFormat);
 		}
 		
-		public static void AddDefaultTarget()
+		public static LogTarget AddDefaultTarget()
 		{
 			emptyTargets_ = false;
-			targets.Add(new DefaultLogTarget());
+			var target = new DefaultLogTarget();
+			targets.Add(target);
+			return target;
 		}
 		
-		public static void AddDefaultFileTarget()
+		public static LogTarget AddDefaultFileTarget()
 		{
 			emptyTargets_ = false;
 			string path = Path.Join(FileUtils.CurrentPath, $"logs.{GetFileTime()}.txt");
-			targets.Add(new FileLogTarget(path));
+			var target = new FileLogTarget(path);
+			targets.Add(target);
+			return target;
 		}
 
-		public static void AddTarget<T>() where T : LogTarget, new()
+		public static LogTarget AddTarget<T>() where T : LogTarget, new()
 		{
 			emptyTargets_ = false;
-			targets.Add(new T());
+			var target = new T();
+			targets.Add(target);
+			return target;
 		}
 
-		public static void AddTarget<T>(T target) where T : LogTarget
+		public static LogTarget AddTarget<T>(T target) where T : LogTarget
 		{
 			emptyTargets_ = false;
 			targets.Add(target);
+			return target;
 		}
 
 		public static void Temp(string message, params object[] args)

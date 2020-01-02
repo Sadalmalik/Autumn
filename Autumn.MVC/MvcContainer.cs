@@ -26,6 +26,8 @@ namespace Autumn.MVC
 		public McvComponent Handler404Page;
 		public McvComponent Handler500Page;
 
+		public event Action<Method, string, HttpListenerContext> BeforeController;
+		
 		public SmartFileHierarchy fileHierarchy { get; private set; }
 
 		public MvcContainer(Container          parentContainer      = null,
@@ -157,6 +159,8 @@ namespace Autumn.MVC
 
 			string rout = context.Request.RawUrl.Split('?', 2)[0];
 
+			BeforeController(meshod, rout, context);
+			
 			try
 			{
 				foreach (var comp in _components)

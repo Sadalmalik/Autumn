@@ -101,12 +101,6 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="TestBot" t="IncludeRecursive">
-        <e p="TestBot.csproj" t="IncludeRecursive" />
-      </e>
-      <e p="Tests" t="IncludeRecursive">
-        <e p="Tests.csproj" t="IncludeRecursive" />
-      </e>
     </e>
   </component>
 </project>
