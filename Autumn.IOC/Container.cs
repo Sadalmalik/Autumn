@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace Autumn.IOC
@@ -68,6 +69,22 @@ namespace Autumn.IOC
                 return Parent.Get(type);
             }
             return shared;
+        }
+
+        public List<I> GetAll<I>()
+        {
+            Type target = typeof(I);
+            List<I> objects = new List<I>();
+
+            foreach (var shared in _shareds.Values)
+            {
+                if (shared.GetType().GetInterfaces().Contains(target))
+                {
+                    objects.Add((I)shared);
+                }
+            }
+
+            return objects;
         }
 
         public void Init()
